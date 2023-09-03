@@ -1,0 +1,81 @@
+*, *::after, *::before {
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
+
+div.container-fluid {
+  min-height: 75vh;
+  -webkit-box-shadow: 0 0 2em 0.5em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 2em 0.5em rgba(0, 0, 0, 0.5); }
+  @media (min-width: 992px) {
+    div.container-fluid {
+      width: 85vw !important; } }
+  div.container-fluid:hover {
+    -webkit-box-shadow: 0 0 3em 1em rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3em 1em rgba(0, 0, 0, 0.5); }
+  @media (min-width: 992px) {
+    div.container-fluid header {
+      height: 10%; } }
+  div.container-fluid header nav, div.container-fluid header nav > div, div.container-fluid header nav > div ul {
+    height: 100%; }
+  div.container-fluid header nav .navbar-nav li.activate {
+    background: white;
+    border-radius: .5em .5em 0 0; }
+    div.container-fluid header nav .navbar-nav li.activate a {
+      color: black;
+      font-weight: bold; }
+  @media (min-width: 992px) {
+    div.container-fluid div.row {
+      height: 90%; } }
+
+@media (max-width: 1585px) {
+  .modal.fade {
+    display: none; } }
+
+.h-85 {
+  height: 85% !important; }
+
+.h-90 {
+  height: 90% !important; }
+
+.h-15 {
+  height: 15% !important; }
+
+.h-5 {
+  height: 5% !important; }
+
+.w-85 {
+  width: 85% !important; }
+
+.w-90 {
+  width: 90% !important; }
+
+.w-15 {
+  width: 15% !important; }
+
+.w-5 {
+  width: 5% !important; }
+
+.rounded-pill-right {
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important; }
+
+@media (min-width: 576px) {
+  .display-sm-1 {
+    font-size: 6rem !important;
+    line-height: 1.2; } }
+
+@media (max-width: 576px) {
+  .visible-sm {
+    visibility: hidden !important; } }
+
+.bg-primary-radial {
+  background: -webkit-radial-gradient(var(--primary), #0065d0);
+  background: -o-radial-gradient(var(--primary), #0065d0);
+  background: radial-gradient(var(--primary), #0065d0); }
+
+.navbar-dark .navbar-nav .nav-item:hover .nav-link, .navbar-dark .navbar-nav .nav-item:focus .nav-link {
+  color: black !important; }
+
+.pointer {
+  cursor: pointer; }
